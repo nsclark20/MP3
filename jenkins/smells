@@ -1,0 +1,6 @@
+1. This part of the code smells because the same code is repeated a couple different times when it could be put into a function and not have to be repeated
+2. Marked in code
+3. No, this method should not be apart of the node class. This code smells because of speculative
+generality as it is something that should be able to used in multiple classes.
+4. To fix this code you could simply put a number of different loops that would get rid of all those repeated if statements.
+6. We got eliminated the duplicate code by taking the methods the same methods that were run in seperate functions and put them into one. Then called that one function so the code was no longer there twice.
